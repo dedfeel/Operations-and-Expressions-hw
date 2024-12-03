@@ -9,10 +9,11 @@
 
 //Home work 2
 
-//1)
-let adam = 70  
+// 1)
+
+let adam = 70     
 let isStudent = true
-alert((adam >= 65) || (!isStudent))
+alert((adam >= 65) || (isStudent == true))
 
 //2)
 
@@ -24,7 +25,6 @@ alert(( zhas >= 10) && (zhas <= 20))
 let s = -10
 let d = 5
 alert((s < 0 ) && (d > 0) || (s > 0) && (d < 0))
-
 
 //Адамның жеңілдік алуға құқылы екенін тексеретін бағдарлама жазыңыз. 
 //Егер адамның жасы 65-тен үлкен немесе ол студент болса, онда ол жеңілдік алуға құқылы деп саналады.
@@ -39,4 +39,14 @@ alert((s < 0 ) && (d > 0) || (s > 0) && (d < 0))
 Егер екі санның біреуі теріс болса, true деп шығарыңыз,
  ал егер екеуі де оң немесе екеуі де теріс болса, false деп шығарыңыз.
  */
+
+//  let num = prompt("san engiziniz")
+
+//  if(num % 2 == 0){
+//     alert("sizdin zhazgan sanynyz" + num + "zhup san")
+// }else{
+//     alert("sizdin zhazgan sanynyz" + num + "taq san")
+// }
+
+
  
